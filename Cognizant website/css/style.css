@@ -1,0 +1,77 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(233, 225, 225);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #080808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(182, 213, 248);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #026ffd;
+    color: white;
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("https://www.academyit.com.au/wp-content/uploads/IMG_0097-scaled.jpg"); }
+  .img2 { background-image: url("https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/10/information-technology-logo.jpg"); }
+  .img3 { background-image: url("img_lights.jpg"); }
+  .img4 { background-image: url("img_nature.jpg"); }
+  .img5 { background-image: url("img_forest.jpg"); }
+  .img6 { background-image: url("img_woods.jpg"); }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid rgb(4, 121, 255);
+    position: absolute; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.aligncenter {
+    text-align: center;
+}
+
